@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background: #12141d;
+    color: #E5E7EB;
+    margin: 0px;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap:5%;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.header{
+    align-self:baseline;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 12%;
+}
+
+.manage .header{
+    padding: 0px;
+}
+
+.add, .edit, .manage{
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+}
+
+.add, .edit{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e2028;
+    border-radius: 10px;
+    justify-content: center;
+    height: 325px;
+    width: 325px;
+}
+
+
+.addcontainer, .editcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+ul li input, select{
+    background-color: #00000020;
+    color: white;
+    border: 1px solid #F9FAF820;
+    border-radius: 20px;
+    height: 25px;
+    width: 225px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.save{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]{
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background: #4fbaff;
+    border: 0px;
+    height: 20px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover{
+    background: #4995ec;
+    cursor: pointer;
+}
+option{
+    background-color: #1e2028;
+    border: 0px;
+}
+
+.manage{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    background: #00000010;
+    border-radius: 10px;
+    min-width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button, .button2{
+    border-radius: 10px;
+}
+
+.button{
+    background: #76e6cb;
+}
+
+.button:hover{
+    background: #71cdc2;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #f3626c;
+}
+
+.button2:hover{
+    background: #dd5566;
+}
+.button a, .button2 a{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.users td{
+    line-height: 25px;
+}
+
+table{
+    min-width: 100%;
+}
+
+.theader{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.theader td{
+    border-bottom: 1px solid #FFFFFF20;
+    padding-bottom: 6px;
+}
+
+td{
+    word-break: break-all
+}
+
+.email{
+    width: 250px;
+}
+
+.name{
+    width: 120px;
+}
+
+.role{
+    width: 120px;
+}
+
+.options{
+    width: 50px;
+}
+
+label{
+    font-size: 14px;
+}
+
+input[type=checkbox]{
+    border: 0px;
+}
+
+.active {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.active p{
+    padding: 0px;
+}
+.active input{
+    padding: 0px;
+}
